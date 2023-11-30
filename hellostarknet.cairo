@@ -13,6 +13,7 @@ mod HelloStarknet {
         let tcaller = get_caller_address();
         Hello(tcaller, message);
         Hello(tcaller, message);
+        Hello(tcaller, message);
     }
 
 }
